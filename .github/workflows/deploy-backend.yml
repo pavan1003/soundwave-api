@@ -46,4 +46,4 @@ jobs:
             --platform managed \
             --region us-central1 \
             --allow-unauthenticated \
-            --set-env-vars "CLIENT_ADDRESS=${{ secrets.CLIENT_ADDRESS }},FIREBASE_CREDENTIALS=${{ secrets.FIREBASE_CREDENTIALS_FILE }}
+            --set-env-vars "CLIENT_ADDRESS=${{ secrets.CLIENT_ADDRESS }},FIREBASE_CREDENTIALS=${{ secrets.FIREBASE_CREDENTIALS_FILE }}"
