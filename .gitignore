@@ -2,3 +2,5 @@ node_modules
 .env
 firebase-adminsdk.json
 gcp-service-key.json
+firebase-adminsdk_b64.txt
+gcp-service-key_b64.txt
