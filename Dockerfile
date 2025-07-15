@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY package*.json ./
 
+COPY firebase-credentials.json /firebase-credentials.json
+
 RUN npm install --only=production
 
 COPY . .
